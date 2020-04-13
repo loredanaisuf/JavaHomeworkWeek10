@@ -42,7 +42,7 @@ public class CalculatorTestParametrized {
     public static Collection inputValues(){
         return Arrays.asList(new Object [][] {
                 {2, "mm", '+', 3, "cm", 3.2 , "cm"},
-                {1, "km", '-', 5, "dm", 2, "mm"},
+                {1, "km", '-', 5, "dm", 999500, "mm"},
                 {3, "km", '+', 8, "km", 11, "km"}
         });
     }
