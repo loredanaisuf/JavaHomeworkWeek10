@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Repository repository = new Repository();
+        StaticticsRepository repository = new StaticticsRepository();
         Calculator calculator = new Calculator();
         long start = System.nanoTime();
         calculator.calculate(3,'+', 5);

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Repository {
+public class StaticticsRepository {
     private List<Long> times = new ArrayList<>();
 
     public void addCalculationTime(Long time){
@@ -26,5 +26,9 @@ public class Repository {
 
     public long getLowestCalculationTime(){
         return Collections.min(times);
+    }
+
+    public long getNoOfCalculations(){
+        return times.size();
     }
 }
